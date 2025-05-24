@@ -1,0 +1,6 @@
+# ninja log v5
+0	24942	1700278081939844723	/home/ubuntu/Desktop/modi/code/fountai/models/csrc/build/temp.linux-x86_64-cpython-38/binding.o	6f6266f62306a6fe
+0	39058	1700278096068223789	/home/ubuntu/Desktop/modi/code/fountai/models/csrc/build/temp.linux-x86_64-cpython-38/intersection.o	5bf01bb91200d32e
+1	42728	1700278099740322288	/home/ubuntu/Desktop/modi/code/fountai/models/csrc/build/temp.linux-x86_64-cpython-38/raymarching.o	f52f5c00364921f9
+1	47425	1700278104436448239	/home/ubuntu/Desktop/modi/code/fountai/models/csrc/build/temp.linux-x86_64-cpython-38/volumerendering.o	5756c0766ee3409c
+1	49152	1700278106160494476	/home/ubuntu/Desktop/modi/code/fountai/models/csrc/build/temp.linux-x86_64-cpython-38/losses.o	18ad2c6e25dfffeb
