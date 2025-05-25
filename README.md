@@ -13,9 +13,9 @@ Make sure you have Git installed. Then run the following command to clone the re
 ```bash
 git clone https://github.com/mowangmodi/Scene-3D-Reconstruction-and-Rendering-from-OutdoorUnconstrained-Images-Based-on-NeRF.git
 ```
-- : Python ≥ 3.8 is required. It is recommended to use [Anaconda](https://www.anaconda.com/) for environment management.
+-  Python ≥ 3.8 is required. It is recommended to use [Anaconda](https://www.anaconda.com/) for environment management.
 
-- :You can create the Conda environment using either of the following methods:
+- You can create the Conda environment using either of the following methods:
 
 ```bash
 # Method 1: Create manually
