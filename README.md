@@ -91,7 +91,7 @@ python hallucinate.py --save_dir save \
 note：If you want the view-dependent appearance of a single image, you need to modify [phototourism_mask_grid_sample.py](https://github.com/mowangmodi/Scene-3D-Reconstruction-and-Rendering-from-Outdoor-Unconstrained-Images-Based-on-NeRF/blob/main/datasets/phototourism_mask_grid_sample.py).
 
 # Acknowledge
-Our code is based on the awesome pytorch implementation of Hallucinated Neural Radiance Fields in the Wild ([Ha-NeRF](https://github.com/rover-xingyu/Ha-NeRF?tab=readme-ov-file)) and # Instant Neural Graphics Primitives with a Multiresolution Hash Encoding([Instant-ngp](https://github.com/kwea123/ngp_pl)). We appreciate all the contributors.
+Our code is based on the awesome pytorch implementation of Hallucinated Neural Radiance Fields in the Wild ([Ha-NeRF](https://github.com/rover-xingyu/Ha-NeRF?tab=readme-ov-file)) and Instant Neural Graphics Primitives with a Multiresolution Hash Encoding([Instant-ngp](https://github.com/kwea123/ngp_pl)). We appreciate all the contributors.
 
       
 
