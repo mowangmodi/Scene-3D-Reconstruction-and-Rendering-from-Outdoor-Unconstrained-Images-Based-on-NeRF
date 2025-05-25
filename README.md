@@ -60,6 +60,9 @@ python train.py   --root_dir /path/to/the/datasets/brandenburg_gate/ --img_downs
   Add `--encode_a` to enable the appearance hallucination module, `--use_mask` to enable the anti-occlusion module, and set `--N_vocab` to an integer greater than the number of images (e.g., for "brandenburg_gate" with 1363 images, any number >1363 works). If not set or too small, it will trigger `RuntimeError: CUDA error: device-side assert triggered` from `torch.nn.Embedding`.See [opt.py](https://github.com/mowangmodi/Scene-3D-Reconstruction-and-Rendering-from-Outdoor-Unconstrained-Images-Based-on-NeRF/blob/main/opt.py) for all configurations.
   
  You can monitor the training process by running tensorboard --logdir save/logs/exp_HaNeRF_Brandenburg_Gate --port=8800 and then visiting ```http://localhost:8800``` in your browser.
+
+# Pretrained models will be released soon. Stay tuned!
+ 
 #  🔎 Evaluation
 Use [eval.py](https://github.com/mowangmodi/Scene-3D-Reconstruction-and-Rendering-from-Outdoor-Unconstrained-Images-Based-on-NeRF/blob/main/eval.py) to inference on all test data. It will create folder `{save_dir}/results/{dataset_name}/{scene_name}` and save the rendered images.
 Run (example)
