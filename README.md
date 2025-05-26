@@ -61,7 +61,8 @@ python train.py   --root_dir /path/to/the/datasets/brandenburg_gate/ --img_downs
   
  You can monitor the training process by running tensorboard --logdir save/logs/exp_HaNeRF_Brandenburg_Gate --port=8800 and then visiting ```http://localhost:8800``` in your browser.
 
-# Pretrained models will be released soon. Stay tuned!
+# Pretrained models 
+We provide a pre-trained model, which you can download from [here](https://drive.google.com/drive/folders/1mat80K8bli-UAAEH4nmkmAkrSTQlcNTG).
  
 #  🔎 Evaluation
 Use [eval.py](https://github.com/mowangmodi/Scene-3D-Reconstruction-and-Rendering-from-Outdoor-Unconstrained-Images-Based-on-NeRF/blob/main/eval.py) to inference on all test data. It will create folder `{save_dir}/results/{dataset_name}/{scene_name}` and save the rendered images.
