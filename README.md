@@ -40,14 +40,15 @@ Download the scenes you want from [here](https://www.cs.ubc.ca/~kmyi/imw2020/dat
 
 Download the train/test split from [here](https://nerf-w.github.io/) and put under each scene's folder (the **same level** as the "dense" folder).
 
+You can download the corresponding **masks** for each scene from [here](https://drive.google.com/drive/folders/1mat80K8bli-UAAEH4nmkmAkrSTQlcNTG).
+
 (**Optional but highly recommended**) Run `python prepare_phototourism.py --root_dir <ROOT_DIR> --img_downscale {an integer, e.g. 2 means half the image sizes} --masks_dir <path_to_masks>` to prepare and save the training data to disk in advance. This step is especially useful if you plan to run multiple experiments or use multiple GPUs, as it **significantly** reduces the data preparation time before training.
 
 Run (example)
 ```bash 
 python prepare_phototourism.py --root_dir <path_to_dataset> --img_downscale <scale_factor> --masks_dir <path_to_masks>
 ```
-# Mask
-You can download the corresponding **masks** for each scene from [here](https://drive.google.com/drive/folders/1mat80K8bli-UAAEH4nmkmAkrSTQlcNTG).
+
 ### Training model
 Run (example)
 ```bash 
