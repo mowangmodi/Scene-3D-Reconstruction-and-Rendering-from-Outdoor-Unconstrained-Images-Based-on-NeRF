@@ -32,7 +32,7 @@ Run the following command to install the CUDA extension (please run this every t
 pip install -U pip
 pip install models/csrc/
 ```
-⚠️ Note: tiny-cuda-nn may require manual installation. Please follow the [official instructions](https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension) to install it as a PyTorch extension.
+⚠️ Note: tiny-cuda-nn require **manual compilation and installation**. Please follow the [official instructions](https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension) to install it as a PyTorch extension.
 
 # 🔑 Training
 ## Data download
