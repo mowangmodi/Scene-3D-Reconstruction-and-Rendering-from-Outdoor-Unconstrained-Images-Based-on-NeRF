@@ -46,7 +46,8 @@ Run (example)
 ```bash 
 python prepare_phototourism.py --root_dir <path_to_dataset> --img_downscale <scale_factor> --masks_dir <path_to_masks>
 ```
-
+# Mask
+You can download the corresponding **masks** for each scene from [here](https://drive.google.com/drive/folders/1mat80K8bli-UAAEH4nmkmAkrSTQlcNTG).
 ### Training model
 Run (example)
 ```bash 
