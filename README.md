@@ -32,6 +32,8 @@ Run the following command to install the CUDA extension (please run this every t
 pip install -U pip
 pip install models/csrc/
 ```
+⚠️ Note: tiny-cuda-nn may require manual installation. Please follow the [official instructions](https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension) to install it as a PyTorch extension.
+
 # 🔑 Training
 ## Data download
 Download the scenes you want from [here](https://www.cs.ubc.ca/~kmyi/imw2020/data.html)
